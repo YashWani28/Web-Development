@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="backend.php"> <!--action tells it where to submit the results-->
+        <h1>Zoo Keeper Application Form</h1>
+        <h3>Contact Details</h3>
+        <div>
+            Name* : <input type="text" required>
+        </div>
+        <br>
+        <div>
+            Telephone: <input type="tel">
+        </div>
+        <br>
+        <div>
+            Email* : <input type="email" required>
+        </div>
+        <!-- <hr> will put a horzonal line in between -->
+        <hr>  
+        <h3>Personal Details</h3>
+        <div>
+            Age* : <input type="number">
+        </div>
+        <br>
+        <div>
+            Gender: <select name="gender" id="gen">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- If you click on the label, the element that it represents will also be highlighted -->
+            <label for="txtarea">When did you first know you wanted to become a zoo keeper?</label>
+            <br>
+            <textarea rows="10" cols="40" id="txtarea"></textarea>
+        </div>
+        <hr> 
+        <h3>Pick your favourite animals</h3>
+        <label for="giraffe">Girrafe</label>
+        <input type="checkbox">
+        <label for="elephant">Elephant</label>
+        <input type="checkbox">
+        <label for="tiger">Tiger</label>
+        <input type="checkbox">
+        <br>
+        <label for="giraffe">Girrafe</label>
+        <input type="checkbox">
+        <label for="elephant">Elephant</label>
+        <input type="checkbox">
+        <label for="tiger">Tiger</label>
+        <input type="checkbox">
+        <hr>
+        <h3>Would you be comformtable in working with animals other than your choice</h3>
+        <!-- You can select only one of the radio buttons that share the same name="" -->
+        <label for="yesbutton">Yes: </label>
+        <input  type="radio" name="choice" id="yesbutton">
+        <label for="nobutton">No: </label>
+        <input  type="radio" name="choice" id="nobuton">
+        <hr>
+        <!-- NOTE: value for submit and reset buttons is the text that will be displayed on the buttons unlike other HTML elements -->
+        <input type="submit" value="CLick to Submit"> 
+        <input type="reset">
+    </form>    
+
+</body>
+</html>
