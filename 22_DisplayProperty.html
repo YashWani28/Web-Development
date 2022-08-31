@@ -1,0 +1,27 @@
+<!-- 
+Inline element: elements which take up only the space that is required by their contents
+block elements: elements that will take up the whole row 
+You can set width in block elements only 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* here h1 is a block element...the margin on its both sides is already the same...so we cannot center it even with margin: auto....in order to center it, we must change its width and then use margin 0 auto */
+        h1{
+            margin: 0 auto;
+            display: block;
+            width: 50%;
+            text-align: center; /* now if the width of the h1 changes, the text goes to its right by default ....so we center all the text inside it */
+        }
+    </style>
+</head>
+<body>
+    <h1>hello world!!!</h1>
+</body>
+</html>
