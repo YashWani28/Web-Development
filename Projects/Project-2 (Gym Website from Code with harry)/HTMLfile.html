@@ -27,6 +27,28 @@
             width: 140px;
             text-align: center;
         }
+        #right{
+            position:absolute;
+            display: inline-block;
+            right: 12px;
+            top: 20px;
+            
+            color: white;
+        }
+        .validation{
+            padding: 10px 50px;
+            text-align: center;
+            background-color: #e66a6a;
+            border: solid black 2px;
+            margin: 10px;
+            font-size: 25px;
+            border-radius: 5px;
+
+        }
+        .validation:hover{
+            /* transform: scale(1.5); */
+            background-color: #de3131;
+        }
         #mid{
             
             display: block;
@@ -36,24 +58,7 @@
             margin-top: 20px;
             background-color: rgb(15, 17, 29);
             border: 2px solid red;
-
-        }
-        #right{
-            position:absolute;
-            display: inline-block;
-            right: 12px;
-            top: 20px;
-            border: 2px solid red;
-            color: white;
-            
-
-        }
-        #right ul{
-            text-align: center;
-        }
-        #right li{
-            list-style-type: none;
-            display:block ;
+            border-radius: 5px;
         }
         #mid li {
             display: inline-block   ;
@@ -101,11 +106,9 @@
             </ul>
         </div>
         <div class="landing_top" id="right">
-            <ul>
-                <li>Login</li>
-                <li>Sign-Up</li>
+            <div class="validation">Login</div>
+            <div class="validation">Sign-up</div>
 
-            </ul>
         </div>
     </div>
 </body>
