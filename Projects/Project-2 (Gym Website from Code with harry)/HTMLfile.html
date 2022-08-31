@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white ;/*Here we can set the default color of any element appearing in the body as white...it can later be changed from the individual css of the element if it needs to be changed*/
+            margin: 0px;
+            padding: 0px;
+            background:url('gymlady.jpg');
+            
+        }
+        .landing_top{
+            color:black;
+      
+        }
+        #left{
+            position:absolute;
+            display: inline-block;
+            left: 12px;
+            top: 20px;
+            color: white;
+            height: 40px;
+            width: 140px;
+            text-align: center;
+        }
+        #mid{
+            
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 20px;
+            background-color: rgb(15, 17, 29);
+            border: 2px solid red;
+
+        }
+        #right{
+            position:absolute;
+            display: inline-block;
+            right: 12px;
+            top: 20px;
+            border: 2px solid red;
+            color: white;
+            
+
+        }
+        #right ul{
+            text-align: center;
+        }
+        #right li{
+            list-style-type: none;
+            display:block ;
+        }
+        #mid li {
+            display: inline-block   ;
+            /* margin-left: 20px;
+            margin-right: 20px; */
+            padding: 14px 23px; /*NOTE HOW PADDING IS USED HERE INSTEAD OF MARGIN TO CREATE SPACE*/
+            font-size: 25px;
+            height: 25px;
+            border-radius: 5px;
+        }
+        #mid li:hover{
+            background-color: rgb(55, 76, 94);
+        }
+        #mid a{
+            text-decoration: none;
+            color: white;
+        }
+        .active{
+            background-color: #d83f3f;
+        }
+        .logoname{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="landing_top" id="left">
+            <div>
+                <img src="Gym_logo.jpg" alt="" height="80px" width="140px">
+            </div>
+            <div class="logoname">
+                GYM MATTAS
+            </div>
+            
+        </div >
+        <div class="landing_top" id="mid">
+            
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="landing_top" id="right">
+            <ul>
+                <li>Login</li>
+                <li>Sign-Up</li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
