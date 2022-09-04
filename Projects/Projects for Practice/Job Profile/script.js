@@ -27,15 +27,19 @@ var desc=document.querySelector(".desc");
 
 
 left.addEventListener("click",function(){
-    var index_tofind=setindex("left");
+    let index_tofind=setindex("left");
     // console.log(index_tofind);..working
     setcontent(index_tofind);
 })
 right.addEventListener("click",function(){
-    var index_tofind=setindex("right");
+    let index_tofind=setindex("right");
     // console.log(index_tofind);..working
     setcontent(index_tofind);
 
+})
+surprise.addEventListener("click",function(){
+    let index_tofind=setindex("random");
+    setcontent(index_tofind);
 })
 
 /*functions*/
@@ -49,9 +53,13 @@ function setindex(buttonclicked)
     else if(buttonclicked=="right" && index<2)
     {
         index++;
-        return index;
-         
+        return index;    
     } 
+    else if(buttonclicked=="random")
+    {
+        index=getrandomindex();
+        return index;
+    }
 }
 function setcontent(indx)
 {
@@ -59,6 +67,10 @@ function setcontent(indx)
     nme.textContent=details[indx].name;
     role.textContent=details[indx].role;
     desc.textContent=details[indx].description;
+}
+function getrandomindex()
+{
+    return Math.floor(Math.random()*details.length);
 }
 
 
