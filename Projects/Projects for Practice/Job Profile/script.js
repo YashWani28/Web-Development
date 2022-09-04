@@ -2,17 +2,17 @@ const details=[
     {
         name: "Susan Smith",
         role: "Web Developer",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid soluta quod expedita velit, temporibus consequatur debitis adipisci aliquam voluptas, error architecto, voluptatum autem iure nostrum doloremque iste aperiam enim porro possimus veniam? Vitae, velit atque magni porro eaque ullam dicta consequatur veniam voluptas distinctio quas rem delectus, mollitia aut error."
+        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid soluta quod expedita velit, temporibus consequatur debitis adipisci aliquam voluptas, error architecto, voluptatum autem iure nostrum doloremque iste aperiam enim porro possimus veniam? Vitae, velit atque magni porro eaque ullam dicta consequatur veniam voluptas distinctio quas rem delectus, mollitia aut error.",
     },
     {
         name: "Steve Jobs",
         role: "Android Developer",
-        description: "ligendi pariatur velit vitae architecto autem neque fugiat! Eos, nesciunt quod aliquid incidunt assumenda voluptatum veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae similique laboriosam soluta cum aliquid, fugiat ducimus nam doloribus odit cupiditate unde ullam sequi ipsa deleniti iusto totam, vero laborum inventore voluptatem. Saepe cumque magni, e"
+        description: "ligendi pariatur velit vitae architecto autem neque fugiat! Eos, nesciunt quod aliquid incidunt assumenda voluptatum veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae similique laboriosam soluta cum aliquid, fugiat ducimus nam doloribus odit cupiditate unde ullam sequi ipsa deleniti iusto totam, vero laborum inventore voluptatem. Saepe cumque magni, e",
     },
     {
         name: "Bill Gates",
         role: "Blockchain Developer",
-        description: " voluptatum veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae similique iusto totam, vero laborum inventore voluptatem. Saepe cumque magni, e ligendi pariatur velit vitae architecto autem neque fugiat! Eos, nesciunt quod aliquid incidunt assumenda laboriosam soluta cum aliquid, fugiat ducimus nam doloribus odit cupiditate unde ullam sequi ipsa deleniti"
+        description: " voluptatum veritatis.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae similique iusto totam, vero laborum inventore voluptatem. Saepe cumque magni, e ligendi pariatur velit vitae architecto autem neque fugiat! Eos, nesciunt quod aliquid incidunt assumenda laboriosam soluta cum aliquid, fugiat ducimus nam doloribus odit cupiditate unde ullam sequi ipsa deleniti",
     },
 ]
 var index = 0;
@@ -22,7 +22,7 @@ var right=document.getElementById("right");
 var surprise=document.getElementById("surprisebutton");
 var nme=document.querySelector(".name");
 var role=document.querySelector(".role");
-var desc=document.querySelector("desc");
+var desc=document.querySelector(".desc");
 
 
 
