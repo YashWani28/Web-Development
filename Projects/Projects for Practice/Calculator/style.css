@@ -1,0 +1,12 @@
+.calc_container{
+    display:block;
+    width:10vw;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.display{
+    width:12vw;
+
+    text-align: right;
+}
