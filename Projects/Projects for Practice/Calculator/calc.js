@@ -273,6 +273,10 @@ clear.addEventListener("click",function(){
 equal.addEventListener("click",function(){
     display.textContent=evaluate();// the answer written will be displayed
     display_len=1;
+    container1="0";
+    container2="0";
+    operator_full=false;
+    operator_container="nothing";
 })
 
 

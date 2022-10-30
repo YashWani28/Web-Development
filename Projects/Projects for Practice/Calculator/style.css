@@ -1,8 +1,9 @@
 .calc_container{
     display:block;
-    width:10vw;
+    width:50vw;
+    height: 100vh;
     
-    margin: 0 auto;
+    margin: 10vh auto;
     text-align: center;
 }
 .display{
